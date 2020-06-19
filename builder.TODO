@@ -1,0 +1,20 @@
+Wow 3.3.5 Builder
+
+Todo:
+  Talento:
+    ☐ Possui Nome.
+    ☐ Quantidade de Ranks..
+    ☐ Texto de cada Rank.
+    ☐ Dependência de talento.
+    ☐ Possui Imagem.
+  Tier:
+    ☐ Número máximo de Talentos(4).
+    ☐ Pontos de talentos requeridos para liberar.
+  Árvore:
+    ☐ Possui Nome.
+    ☐ Possui Imagem.
+    ☐ Possui Tiers(11).
+  Classe:
+    ☐ Possui Nome.
+    ☐ Possui 3 Árvores.
+    ☐ Número de pontos de Talento.

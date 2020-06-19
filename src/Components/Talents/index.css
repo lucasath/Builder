@@ -1,0 +1,73 @@
+.caixa{
+    background-image: url("../../Assets/Wow_icons/spell_nature_abolishmagic.png");
+    position: absolute;
+    display: block;
+    height: 42px;
+    width: 46px;
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    background-size: 32px;
+
+}
+
+
+.hover{
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-image: url("../../Assets/Wow_icons/talent-hover.png");
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    float: left;
+    height: 32px;
+    width: 30px;
+}
+
+.hover:hover{
+    background-position-y: 100%;
+}
+
+.moldura{
+    width: 44px;
+    height: 39px;
+    padding: 2px 0 0 2px;
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-image: url("../../Assets/Wow_icons/talent-wrap-small.gif");
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+
+.pontos{
+    width: 15px;
+    font-size: 10px;
+    position: absolute;
+    bottom: 2px;
+    right: 4px;
+}
+
+.grey{
+    filter: grayscale(100%);
+}
+
+.inativo{
+    background-position-y: 0%;
+    color: #FFF !important;
+
+}
+
+.ativo{
+    background-position-y: 50%;
+    color: #1AFF1A !important;
+}
+
+.maximo{
+    background-position-y: 100%;
+    color: #FFD100 !important;
+}
